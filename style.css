@@ -1,0 +1,34 @@
+@font-face {
+    font-family: minecraft;
+    src: url(Minecraft\ Seven_2.ttf);
+}
+@font-face {
+    font-family: pokemon;
+    src: url(Pokemon\ Hollow.ttf);
+}
+#output {
+    font-family: minecraft;
+}
+
+.lindo{
+    font-family: minecraft;
+}
+
+h1, p{
+    font-family: minecraft;
+}
+
+.title{
+    font-family: pokemon;
+}
+
+.digitando::after {
+    content: '|';
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
